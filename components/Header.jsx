@@ -11,7 +11,7 @@ import { checkAndAllocateCredits } from "@/actions/credits";
 export default async function Header() {
   const user = await checkUser();
   if (user?.role === "PATIENT") {
-    await checkAndAllocateCredits(user); // ✅ FIXED
+    await checkAndAllocateCredits(user);
   }
 
   return (

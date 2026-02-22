@@ -54,7 +54,7 @@ export default function Home() {
 
             <div className="relative h-[400px] lg:h-[500px] rounded-xl overflow-hidden">
               <Image
-                src="/banner2.png"
+                src="/banner.png"
                 alt="Doctor consultation"
                 fill
                 priority
